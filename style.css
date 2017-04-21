@@ -1,0 +1,359 @@
+* {
+    font-size: 16px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+/*Make color adjuster. We have black and white depending on block*/
+h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.bold {
+    font: inherit;
+    font-weight: bolder;
+}
+
+.block-1 .top-nav {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.block-1 .top-nav .top-nav__nav-list {
+    font-size: 0;
+    background: url('ASSETS/MX-1-navigation-background.png') 0 0 repeat-x;
+    background-size: contain;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+}
+
+.block-1 .top-nav .top-nav__nav-list .top-nav__nav-list-item {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.block-1 .top-nav .top-nav__nav-list .top-nav__nav-list-item:hover {
+    text-decoration: underline;
+}
+
+.block-2 {
+    background: url('ASSETS/MX-2--background.png') center no-repeat;
+    background-size: cover;
+    /*TODO: fix height*/
+    height: 1000px;
+}
+
+/*here should come image of the bed*/
+.block-2 .block-2__image {
+    background: url('ASSETS/MX-2--background.png') center no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.block-2__logo-wrapper, .block-2__info-wrapper {
+    width: 100%;
+    height: 294px;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+}
+
+.block-2__logo-wrapper {
+    border-right: 1px solid #fff;
+}
+
+.block-2 .block-2__matrix-logo {
+    background: url('ASSETS/MX-2-matrix-logo.png') center no-repeat;
+    background-size: cover;
+    width: 576px;
+    height: 194px;
+    margin: auto 10px auto auto;
+}
+
+.block-2__info {
+    width: 576px;
+    text-align: center;
+    margin: auto auto auto 10px;
+}
+
+.block-2__info a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.block-3 {
+    background: url('ASSETS/MX-3--background.png') center center no-repeat;
+    background-size: cover;
+    /*TODO: fix height*/
+    height: 881px;
+}
+
+.block-3__text-wrapper {
+}
+
+.block-3__image {
+    background: url('ASSETS/MX-3-mattress-image.png') left center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 484px;
+}
+
+.block-4 {
+    background: url('ASSETS/MX-4--background.png') center center no-repeat;
+    background-size: cover;
+    /*TODO: fix height*/
+    height: 1056px;
+}
+
+.block-4__pie-wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.block-4__pie-wrapper > * {
+    /*TODO: fix height*/
+    width: 100%;
+    height: 100%;
+    /*margin: auto;*/
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block-4__pie-wrapper > .img-1 {
+    background: url('ASSETS/MX-4-layer-1coldwire.png') center top no-repeat;
+    background-size: contain;
+    z-index: 5;
+    width: calc(100% + 20px);
+}
+.block-4__pie-wrapper > .img-2 {
+    background: url('ASSETS/MX-4-layer-2ecofoam.png') center 100px no-repeat;
+    background-size: contain;
+    z-index: 4;
+}
+.block-4__pie-wrapper > .img-3 {
+    background: url('ASSETS/MX-4-layer-3plitech.png') center 200px no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+.block-4__pie-wrapper > .img-4 {
+    background: url('ASSETS/MX-4-layer-4core.png') center 300px no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+.block-4__pie-wrapper > .img-5 {
+    background: url('ASSETS/MX-4-layer-5bottom.png') center 400px no-repeat;
+    background-size: contain;
+    z-index: 1;
+    width: calc(100% + 20px);
+}
+
+.block-5 {
+    background: url('ASSETS/MX-5--background.png') center center no-repeat;
+    background-size: cover;
+    /*TODO: fix height*/
+    height: 646px;
+    display: flex;
+    position: relative;
+}
+
+.block-5__text {
+    width: 33.333%;
+    margin: auto;
+}
+
+.block-5__image {
+    background: url('ASSETS/MX-5-sensor-image.png') center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+.block-6 {
+    height: 700px;
+}
+
+.block-6__feature-list-wrapper {
+    display: flex;
+    background-color: #e6e6e6;
+    height: 200px;
+}
+
+.block-6__feature-list {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    font-size: 0;
+}
+
+.block-6__feature-list-item {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: auto 20px;
+    position: relative;
+}
+
+.block-6__feature-list-item > .img-wrapper:hover, .block-6__feature-list-item > .img-wrapper.active {
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    transition: all ease .3s
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.block-6__feature-list-item > .img-wrapper {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    transition: all ease .3s;
+}
+
+.img.img-moon {
+    background: url('ASSETS/MX-6-header-1quality.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-list-item .img-stopwatch {
+    background: url('ASSETS/MX-6-header-2cycles.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-list-item .img-heart-1 {
+    background: url('ASSETS/MX-6-header-3heartflex.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-list-item .img-heart-2 {
+    background: url('ASSETS/MX-6-header-4heartrate.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-list-item .img-lungs {
+    background: url('ASSETS/MX-6-header-5breathing.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-list-item .img-round {
+    background: url('ASSETS/MX-6-header-6movement.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-list-item .img-brain {
+    background: url('ASSETS/MX-6-header-7stress.png') center center no-repeat;
+    background-size: contain;
+}
+
+.block-6__feature-wrapper {
+    height: 500px;
+}
+
+.block-6__feature-arrow-list{
+    list-style: none;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.block-6__feature-arrow-list-item {
+    height: 30px;
+    width: 30px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: red;
+    display: inline-block;
+    margin: 0 50px;
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+.block-6__feature-arrow-list-item.item-moon, .block-6__feature.feature-moon {
+    background-color: #74dad2;
+}
+.block-6__feature-arrow-list-item.item-stopwatch {
+    background-color: #76b8d2;
+}
+.block-6__feature-arrow-list-item.item-heart-1 {
+    background-color: #a496d2;
+}
+.block-6__feature-arrow-list-item.item-heart-2 {
+    background-color: #d0b8d3;
+}
+.block-6__feature-arrow-list-item.item-lungs {
+    background-color: #d0b8b0;
+}
+.block-6__feature-arrow-list-item.item-round {
+    background-color: #debb67;
+}
+.block-6__feature-arrow-list-item.item-brain {
+    background-color: #ea9f78;
+}
+
+.block-6__feature-wrapper {
+    display: flex;
+}
+.block-6__feature {
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.block-6__feature > .img {
+    margin: 30px auto 0;
+}
+
+.block-7 {
+    background: url('ASSETS/MX-7--background.png') center center no-repeat;
+    background-size: cover;
+    /*TODO: fix height*/
+    height: 936px;
+}
+
+/*TODO: make good look on frontend*/
+.block-7__text {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.block-7__text > * {
+    margin: auto;
+}
+.block-7__image {
+    background: url('ASSETS/MX-7-phone-tablet.png') center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}

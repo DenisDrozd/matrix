@@ -1,8 +1,194 @@
 <html>
-<head>
-    <title>webpack 2 demo</title>
-</head>
+    <head>
+        <title>Matrix</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
     <body>
+        <!--TODO: make hamburger for mobiles-->
+        <div class="container-fluid block-1 no-padding">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="top-nav">
+                        <ul class="top-nav__nav-list no-padding">
+                            <li class="top-nav__nav-list-item">About</li>
+                            <li class="top-nav__nav-list-item">Materials</li>
+                            <li class="top-nav__nav-list-item">Capabilities</li>
+                            <li class="top-nav__nav-list-item">Why smart?</li>
+                            <li class="top-nav__nav-list-item">Faqs</li>
+                            <li class="top-nav__nav-list-item">Join us</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid block-2 no-padding">
+            <div class="row">
+                <div class="col-md-6 no-padding">
+                    <div class="block-2__logo-wrapper">
+                        <div class="block-2__matrix-logo"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 no-padding">
+                    <div class="block-2__info-wrapper">
+                        <div class="block-2__info">
+                            <h3>Sleep smart. <span class="bold">Dream big.</span></h3>
+                            <p>Innovative sleep sensor technology integrated into layers of memory foam comfort.</p>
+                            <a href="#">Support the kickstarter ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid block-3 no-padding">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="block-3__image"></div>
+                </div>
+                <div class="col-md-4">
+                    <!--todo: make flixible and vertically centered-->
+                    <div class="block-3__text-wrapper">
+                        <h3>Where <span class="bold">comfort</span> & <span class="bold">technology</span> sleep</h3>
+                        <p class="block-3__paragraph">
+                            Your smart mattress shouldn't play dumb when it comes to sleep. Similar products focus too heavily on technology, letting the construction of the mattress fall by the wayside.
+                        </p>
+                        <p class="block-3__paragraph">
+                            Matrix sleep sensor technology is embedded into plush, high-performance memory foam, creating a mattress that is as comfortable as it is intelligent.
+                        </p>
+                        <p class="block-3__paragraph">
+                            After all, you want a mattress that is also smart, not a piece of tech that you can also sleep on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid block-4 no-padding">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <!--TODO: make flexible vertically centered-->
+                    <div class="block-4__text-wrapper">
+                        <!--TODO: make accordion for mobiles-->
+                        <h3 class="bold">Beauty and brains, made in the USA</h3>
+                        <h4 class="bold">Cooling Fabric</h4>
+                        <p>
+                            The innovative fabric cover is cool to the touch and wicks away moisture to speed up recovery and regulate temperature.
+                        </p>
+                        <h4 class="bold">Eco Foam Zone</h4>
+                        <p>
+                            Our plant-based, eco-friendly memory foam delivers superior comfort and durability.
+                        </p>
+                        <h4 class="bold">Plitech Foam Zone</h4>
+                        <p>
+                            An extra layer of memory foam bridges the top and bottom layers, stabilizing the body and ensuring optimum support.
+                        </p>
+                        <h4 class="bold">Core Foam Zone</h4>
+                        <p>
+                            The foundation of the mattress. Formed with a low-density flex urethane foam that keeps the mattress lighter and stronger.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <!--TODO: make felxible vertically centered-->
+                    <div class="block-4__pie-wrapper">
+                        <div class="img-1"></div>
+                        <div class="img-2"></div>
+                        <div class="img-3"></div>
+                        <div class="img-4"></div>
+                        <div class="img-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-5">
+            <div class="block-5__text">
+                <h3>Track your sleep <span class="bold">without</span> loosing any</h3>
+                <p>
+                    Our MatrixSense sensors are seamlessly integrated into your mattress, allowing the technology to work effortlessly while you sleep.
+                </p>
+                <p>
+                    That means no more bulky wearables and no more sleeping with your smart phone. Just the technology and comfort you need to perform at your best, day after day, night after night.
+                </p>
+            </div>
+            <div class="block-5__image"></div>
+        </div>
+        <div class="block-6">
+            <div class="block-6__feature-list-wrapper">
+                <ul class="block-6__feature-list no-padding">
+                    <!--TODO: make them flex-->
+                    <li class="block-6__feature-list-item item-1">
+                        <div class="img-wrapper">
+                            <div class="img img-moon"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-moon"></div>
+                    </li>
+                    <li class="block-6__feature-list-item item-2">
+                        <div class="img-wrapper">
+                            <div class="img img-stopwatch"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-stopwatch"></div>
+                    </li>
+                    <li class="block-6__feature-list-item item-3">
+                        <div class="img-wrapper">
+                            <div class="img img-heart-1"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-heart-1"></div>
+                    </li>
+                    <li class="block-6__feature-list-item item-4">
+                        <div class="img-wrapper">
+                            <div class="img img-heart-2"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-heart-2"></div>
+                    </li>
+                    <li class="block-6__feature-list-item item-5">
+                        <div class="img-wrapper">
+                            <div class="img img-lungs"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-lungs"></div>
+                    </li>
+                    <li class="block-6__feature-list-item item-6">
+                        <div class="img-wrapper">
+                            <div class="img img-round"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-round"></div>
+                    </li>
+                    <li class="block-6__feature-list-item item-7">
+                        <div class="img-wrapper">
+                            <div class="img img-brain"></div>
+                        </div>
+                        <div class="block-6__feature-arrow-list-item item-brain"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="block-6__feature-wrapper">
+                <div class="block-6__feature feature-moon">
+                    <div class="img img-moon"></div>
+                    <h3 class="bold">Sleep Quality</h3>
+                    <p>
+                        Using a unique, sophisticated algorithm, MatrixSense compares your personal data with established scientific standards to generate a simple indicator of how well you’re sleeping.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid block-7 no-padding">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 no-padding">
+                    <div class="block-7__text">
+                        <h3>why sleep <span class="bold">smart?</span></h3>
+                        <p>
+                            Tracking your sleep quality overtime will alert you to trends and factors that impact your recovery time in bed and, ultimately, your performance when you wake up in the morning.
+                        </p>
+                        <p>
+                            It's the mattress you need for you or you and your partner if you want to get the most optimal sleep.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 no-padding">
+                    <div class="block-7__image"></div>
+                </div>
+            </div>
+        </div>
         <script src="dist/bundle.js"></script>
     </body>
 </html>
