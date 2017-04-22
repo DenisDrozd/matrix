@@ -1,0 +1,21 @@
+.block-5 {
+  background: url('../ASSETS/MX-5--background.png') center center no-repeat;
+  background-size: cover;
+  /*TODO: fix height*/
+  height: 646px;
+  display: flex;
+  position: relative;
+}
+
+.block-5__text {
+  width: 33.333%;
+  margin: auto;
+}
+
+.block-5__image {
+  background: url('../ASSETS/MX-5-sensor-image.png') center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+}

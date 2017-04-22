@@ -1,0 +1,42 @@
+.block-2 {
+  background: url('../ASSETS/MX-2--background.png') center no-repeat;
+  background-size: cover;
+  /*TODO: fix height*/
+  height: 1000px;
+  /*here should come image of the bed*/
+  &__image {
+    background: url('../ASSETS/MX-2-bed-image.png') center no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+
+  &__logo-wrapper, &__info-wrapper {
+    width: 100%;
+    height: 294px;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+  }
+
+  &__logo-wrapper {
+    border-right: 1px solid #fff;
+  }
+
+  &__matrix-logo {
+    background: url('../ASSETS/MX-2-matrix-logo.png') center no-repeat;
+    background-size: cover;
+    width: 576px;
+    height: 194px;
+    margin: auto 10px auto auto;
+  }
+
+  &__info {
+    width: 576px;
+    text-align: center;
+    margin: auto auto auto 10px;
+    a {
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.block-6 {
+  height: 700px;
+}
+
+.block-6__feature-list-wrapper {
+  display: flex;
+  background-color: #e6e6e6;
+  height: 200px;
+}
+
+.block-6__feature-list {
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  font-size: 0;
+}
+
+.block-6__feature-list-item {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: auto 20px;
+  position: relative;
+}
+
+.block-6__feature-list-item > .img-wrapper:hover, .block-6__feature-list-item > .img-wrapper.active {
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+  transition: all ease .3s
+}
+
+.block-6__feature-list-item > .img-wrapper {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  transition: all ease .3s;
+}
+.block-6__feature-list-item .img-moon {
+  background: url('../ASSETS/MX-6-header-1quality.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-list-item .img-stopwatch {
+  background: url('../ASSETS/MX-6-header-2cycles.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-list-item .img-heart-1 {
+  background: url('../ASSETS/MX-6-header-3heartflex.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-list-item .img-heart-2 {
+  background: url('../ASSETS/MX-6-header-4heartrate.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-list-item .img-lungs {
+  background: url('../ASSETS/MX-6-header-5breathing.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-list-item .img-round {
+  background: url('../ASSETS/MX-6-header-6movement.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-list-item .img-brain {
+  background: url('../ASSETS/MX-6-header-7stress.png') center center no-repeat;
+  background-size: contain;
+}
+
+.block-6__feature-wrapper {
+  height: 500px;
+}
+
+.block-6__feature-arrow-list{
+  list-style: none;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+}
+
+.block-6__feature-arrow-list-item {
+  height: 30px;
+  width: 30px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: red;
+  display: inline-block;
+  margin: 0 50px;
+  position: absolute;
+  left: 0;
+  top: 150px;
+}
+
+.block-6__feature-arrow-list-item.item-moon, .block-6__feature.feature-moon {
+  background-color: #74dad2;
+}
+.block-6__feature-arrow-list-item.item-stopwatch {
+  background-color: #76b8d2;
+}
+.block-6__feature-arrow-list-item.item-heart-1 {
+  background-color: #a496d2;
+}
+.block-6__feature-arrow-list-item.item-heart-2 {
+  background-color: #d0b8d3;
+}
+.block-6__feature-arrow-list-item.item-lungs {
+  background-color: #d0b8b0;
+}
+.block-6__feature-arrow-list-item.item-round {
+  background-color: #debb67;
+}
+.block-6__feature-arrow-list-item.item-brain {
+  background-color: #ea9f78;
+}
+
+.block-6__feature-wrapper {
+  display: flex;
+}
+.block-6__feature {
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.block-6__feature > .img {
+  margin: 30px auto 0;
+}

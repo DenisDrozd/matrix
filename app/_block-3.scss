@@ -1,0 +1,12 @@
+.block-3 {
+  background: url('../ASSETS/MX-3--background.png') center center no-repeat;
+  background-size: cover;
+  /*TODO: fix height*/
+  height: 881px;
+  &__image {
+    background: url('../ASSETS/MX-3-mattress-image.png') left center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 484px;
+  }
+}

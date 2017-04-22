@@ -1,0 +1,47 @@
+.block-4 {
+  background: url('../ASSETS/MX-4--background.png') center center no-repeat;
+  background-size: cover;
+  /*TODO: fix height*/
+  height: 1056px;
+  &__pie-wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    & > * {
+      /*TODO: fix height*/
+      width: 100%;
+      height: 100%;
+      /*margin: auto;*/
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+.block-4__pie-wrapper > .img-1 {
+  background: url('../ASSETS/MX-4-layer-1coldwire.png') center top no-repeat;
+  background-size: contain;
+  z-index: 5;
+  width: calc(100% + 20px);
+}
+.block-4__pie-wrapper > .img-2 {
+  background: url('../ASSETS/MX-4-layer-2ecofoam.png') center 100px no-repeat;
+  background-size: contain;
+  z-index: 4;
+}
+.block-4__pie-wrapper > .img-3 {
+  background: url('../ASSETS/MX-4-layer-3plitech.png') center 200px no-repeat;
+  background-size: contain;
+  z-index: 3;
+}
+.block-4__pie-wrapper > .img-4 {
+  background: url('../ASSETS/MX-4-layer-4core.png') center 300px no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+.block-4__pie-wrapper > .img-5 {
+  background: url('../ASSETS/MX-4-layer-5bottom.png') center 400px no-repeat;
+  background-size: contain;
+  z-index: 1;
+  width: calc(100% + 20px);
+}

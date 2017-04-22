@@ -1,0 +1,26 @@
+.block-7 {
+  background: url('../ASSETS/MX-7--background.png') center center no-repeat;
+  background-size: cover;
+  /*TODO: fix height*/
+  height: 936px;
+}
+
+/*TODO: make good look on frontend*/
+.block-7__text {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.block-7__text > * {
+  margin: auto;
+}
+.block-7__image {
+  background: url('../ASSETS/MX-7-phone-tablet.png') center center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
