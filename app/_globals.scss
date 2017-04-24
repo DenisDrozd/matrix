@@ -1,5 +1,6 @@
 * {
   font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .no-padding {
@@ -13,11 +14,13 @@
 /*Make color adjuster. We have black and white depending on block*/
 h3 {
   text-transform: uppercase;
+  font: inherit;
   font-size: 18px;
 }
 
 h4 {
   text-transform: uppercase;
+  font: inherit;
   font-size: 16px;
 }
 
@@ -26,7 +29,7 @@ h4 {
   font-weight: bolder;
 }
 
-.text-blacl {
+.text-black {
   color: #000;
 }
 
@@ -40,3 +43,10 @@ h4 {
   border-radius: 50%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.block-header {
+  text-align: center;
+}

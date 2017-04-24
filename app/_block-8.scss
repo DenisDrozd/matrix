@@ -1,0 +1,50 @@
+.block-8 {
+  background: url('../ASSETS/MX-8--background.png') center center no-repeat;
+  background-size: cover;
+  /*TODO: fix height*/
+  height: 936px;
+  .panel {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin: 0;
+    line-height: 3;
+    &:first-child {
+      border-top: none;
+    }
+    &-heading {
+      cursor: pointer;
+      border-top: 1px solid #66646a;
+      border-radius: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      & > h4 {
+        display: inline-block;
+        text-transform: none;
+        margin: auto 0;
+        color: #66646a;
+      }
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin: auto 0;
+      }
+      &:not(.collapsed):after {
+        background: url('../ASSETS/MX-8-icon-.png') center center no-repeat;
+        background-size: cover;
+      }
+      &.collapsed:after {
+        background: url('../ASSETS/MX-8-icon+.png') center center no-repeat;
+        background-size: cover;
+      }
+    }
+    &-body {
+      line-height: 1;
+      font-weight: lighter;
+    }
+  }
+}
